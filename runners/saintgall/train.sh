@@ -7,7 +7,7 @@ python scripts/train.py \
   --output_dir "../saved_models" \
   --image_w 1024 \
   --image_h 128 \
-  --num_epochs 20 \
+  --num_epochs 100 \
   --bs 16 \
   --num_workers 4 \
   --use_progress_bar 0 \
