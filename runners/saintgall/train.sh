@@ -14,7 +14,7 @@ python scripts/train.py \
   --neptune_project "" \
   --neptune_token "" \
   --Transformation "TPS" \
-  --FeatureExtraction "ResNet" \
+  --FeatureExtraction "RCNN" \
   --SequenceModeling "BiLSTM" \
-  --Prediction "CTC" \
+  --Prediction "Attn" \
   --seed 6955
