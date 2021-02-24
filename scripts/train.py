@@ -48,7 +48,7 @@ if __name__ == '__main__':
     parser.add_argument('--input_channel', type=int, default=3)
     parser.add_argument('--output_channel', type=int, default=256)
     parser.add_argument('--hidden_size', type=int, default=256)
-
+    parser.add_argument('--num_fiducial', type=int, default=20, help='number of fiducial points of TPS-STN')
     args = parser.parse_args()
 
     assert args.dataset_name in CONFIGS
@@ -88,6 +88,8 @@ if __name__ == '__main__':
         raise ValueError('Unknown type of prediction')
 
     args.num_class = len(converter.chars)
+    args.imgH = args.image_h
+    args.imgW = args.image_w
 
     df = pd.read_csv(f'{args.data_dir}/{args.dataset_name}/marking.csv', index_col='sample_id')
 

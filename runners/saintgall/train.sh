@@ -1,18 +1,20 @@
 python scripts/train.py \
   --checkpoint_path "" \
-  --experiment_name "saintgall_T1" \
-  --experiment_description "T1 None-VGG-None-CTC" \
+  --experiment_name "saintgall_STARNET" \
+  --experiment_description "STAR-Net TPS-ResNet-BiLSTM-CTC" \
   --dataset_name "saintgall" \
   --data_dir "../input" \
   --output_dir "../saved_models" \
   --image_w 1024 \
   --image_h 128 \
-  --num_epochs 100 \
+  --num_epochs 300 \
   --bs 16 \
   --num_workers 4 \
   --use_progress_bar 0 \
   --neptune_project "" \
   --neptune_token "" \
-  --FeatureExtraction "VGG" \
-  --SequenceModeling "None" \
+  --Transformation "TPS" \
+  --FeatureExtraction "ResNet" \
+  --SequenceModeling "BiLSTM" \
+  --Prediction "CTC" \
   --seed 6955
