@@ -11,9 +11,8 @@ Neptune with experiments: https://ui.neptune.ai/aleksey.shonenkov/Digital-Peter-
 ```
 docker build . --tag dpmc-image
 docker run \
-    --restart unless-stopped -d \
     --name dpmc-container \
-    -p 7083:8888 \
+    -p 7080:8888 \
     -e NVIDIA_VISIBLE_DEVICES=0 \
     dpmc-image
 ```
