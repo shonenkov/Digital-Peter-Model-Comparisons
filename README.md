@@ -6,10 +6,10 @@ can solve Handwritten Text Recognition (HTR) Task. Digital Peter (TODO link), [I
 and [BenthamR0](http://www.transcriptorium.eu/~tsdata/BenthamR0/) datasets were selected as demonstration. 
 This analysis shows that HTR task requires more research (<40% ACC, not all models works stable with different HTR datasets). 
 
-## Neptune Logs
-Public Neptune with experiments are available here: https://ui.neptune.ai/aleksey.shonenkov/Digital-Peter-Model-Comparisons/
-
 ![](./pics/clovaai-v2.png)
+
+## Neptune Logs
+Public Neptune with experiments are available [here](https://ui.neptune.ai/aleksey.shonenkov/Digital-Peter-Model-Comparisons/)
 
 
 ## Getting Started
