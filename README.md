@@ -18,11 +18,7 @@ Public Neptune with experiments are available here: https://ui.neptune.ai/alekse
 - Build image and run docker with jupyter environment:
 ```
 docker build . --tag dpmc-image
-docker run \
-    --name dpmc-container \
-    -p 7080:8888 \
-    -e NVIDIA_VISIBLE_DEVICES=0 \
-    dpmc-image
+docker run --name dpmc-container -p 7080:8888 -e NVIDIA_VISIBLE_DEVICES=0 dpmc-image
 ```
 Go to https://127.0.0.1:7080, upload prepared notebook from `jupyters/running_experiments.ipynb` and run experiments
 
