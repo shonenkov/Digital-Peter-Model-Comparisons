@@ -16,7 +16,7 @@ docker run \
     -e NVIDIA_VISIBLE_DEVICES=0 \
     dpmc-image
 ```
-Go to https://127.0.0.1:7080, upload prepared notebook from `jupyters/running-experiments.ipynb` and run experiments
+Go to https://127.0.0.1:7080, upload prepared notebook from `jupyters/running_experiments.ipynb` and run experiments
 
 
 - For downloading prepared datasets (`peter|bentham|iam|saintgall`):
