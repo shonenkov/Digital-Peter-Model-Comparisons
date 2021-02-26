@@ -7,6 +7,8 @@ Neptune with experiments: https://ui.neptune.ai/aleksey.shonenkov/Digital-Peter-
 
 ## How to Run Experiments
 
+- Colab Usage: <a href="https://colab.research.google.com/github/shonenkov/Digital-Peter-Model-Comparisons/blob/master/jupyters/running_experiments.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 - Build image and run docker with jupyter environment:
 ```
 docker build . --tag dpmc-image
