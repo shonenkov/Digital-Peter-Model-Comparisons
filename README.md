@@ -5,8 +5,7 @@ Neptune with experiments: https://ui.neptune.ai/aleksey.shonenkov/Digital-Peter-
 ![](./pics/clovaai-v2.png)
 
 
-## How to Run Experiments
-
+## Getting Started
 - Colab Usage: <a href="https://colab.research.google.com/github/shonenkov/Digital-Peter-Model-Comparisons/blob/master/jupyters/running_experiments.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 - Build image and run docker with jupyter environment:
@@ -20,13 +19,12 @@ docker run \
 ```
 Go to https://127.0.0.1:7080, upload prepared notebook from `jupyters/running_experiments.ipynb` and run experiments
 
-
 - For downloading prepared datasets (`peter|bentham|iam|saintgall`):
 ```
 python scripts/download_dataset.py --dataset_name peter
 ```
 
-- For running experiments using terminal:
+## How to Run Experiments
 
 ### T1 None-VGG-None-CTC
 ```
@@ -220,3 +218,7 @@ python scripts/train.py \
   --Prediction "CTC" \
   --seed 6955
 ```
+
+## Acknowledgements
+
+This implementation has been based on repository [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark)
