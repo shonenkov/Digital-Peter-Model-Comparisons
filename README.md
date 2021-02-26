@@ -1,6 +1,13 @@
 # Digital-Peter-Model-Comparisons
+| paper | [training & evaluation data](https://drive.google.com/drive/folders/1hNHE20ZgQKw64t08JFjK9UC_0Vz2CpTh?usp=sharing) | pretrained_models
 
-Neptune with experiments: https://ui.neptune.ai/aleksey.shonenkov/Digital-Peter-Model-Comparisons/
+This repository demonstrates how models from [Scene Text Recognition (STR) Framework](https://github.com/clovaai/deep-text-recognition-benchmark) 
+can solve Handwritten Text Recognition (HTR) Task. Digital Peter (TODO link), [IAM](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database) 
+and [BenthamR0](http://www.transcriptorium.eu/~tsdata/BenthamR0/) datasets were selected as demonstration. 
+This analysis shows that HTR task requires more research (<40% ACC, not all models works stable with different HTR datasets). 
+
+## Neptune Logs
+Public Neptune with experiments are available here: https://ui.neptune.ai/aleksey.shonenkov/Digital-Peter-Model-Comparisons/
 
 ![](./pics/clovaai-v2.png)
 
